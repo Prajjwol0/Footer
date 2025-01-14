@@ -1,0 +1,49 @@
+ * {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+ }
+
+ a {
+     color: white;
+ }
+
+ a:hover {
+     text-decoration: underline 1px;
+ }
+
+ footer {
+
+  
+     display: flex;
+justify-content: center;
+     padding: 10px;
+     height: 200px;
+     width: 100%;
+     background-color: black;
+     color: white;
+
+ }
+ h4{
+    text-decoration: underline 2px red;
+ }
+
+ .col {
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding: 10px 100px 10px 170px;
+
+ }
+ul.icon{
+    display: flex;
+    gap: 15px;
+ }
+ul.icon li a:hover{
+    box-shadow: 0px 0px 15px #ff5722 ;
+
+}
+.col>ul>.aa{
+   margin-top: 15px;
+}
